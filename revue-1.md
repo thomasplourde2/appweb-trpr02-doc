@@ -1,85 +1,28 @@
-# Markdown Extension Examples
+# Revue de code 1
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+## Le code
 
-## Syntax Highlighting
+- L'indentation du code et conforme pour ce qu'il y a
+- Le nommage des fonctions et des variables est acceptable
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+## Autres
 
-**Input**
+- Le code dans le ScoreView (le tableau des scores) doit être dans un composant pour mieux séparer le code
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+  ```md
+  <script>
+    import { Player } from "../scripts/player";
+    const players = ref<Player>([])
+  </script>
 
-**Output**
+  <template>
+    <p>scores</p>
+    
+  </template>
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+  <style>
+  </style>
 
-## Custom Containers
+  ```
 
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+Voici la source pour voir comment faire une revue de code [Bonnes pratiques de revue de code](https://appweb.progwmj.ca/documentations/bonnes-pratiques/revue-code)
