@@ -10,4 +10,7 @@ hero:
     - theme: alt
       text: Revue de code 1
       link: /revue-1
+    - theme: alt
+      text: Revue de code 2
+      link: /revue-2
 ---

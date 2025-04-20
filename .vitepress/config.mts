@@ -16,7 +16,8 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Revue de code 1', link: '/revue-1' }
+          { text: 'Revue de code 1', link: '/revue-1' },
+          { text: 'Revue de code 2', link: '/revue-2' }
         ]
       }
     ],
